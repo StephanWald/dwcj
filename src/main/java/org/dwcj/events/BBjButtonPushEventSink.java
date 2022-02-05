@@ -26,8 +26,8 @@ public class BBjButtonPushEventSink {
 	}
 	
 	public void onEvent(BBjButtonPushEvent ev) {
-		App.consoleLog("on Button Push Event");
-		target.accept(null);
+		ButtonPushEvent dwc_ev = new ButtonPushEvent();
+		target.accept(dwc_ev);
 	}
 	
 	

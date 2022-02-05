@@ -10,7 +10,7 @@ import com.basis.startup.type.BBjException;
 import com.basis.util.common.BasisNumber;
 import com.google.common.primitives.Ints;
 
-public class AppPanel extends DwcPanel  {
+public class AppPanel extends AbstractDwcPanel  {
 	
 	public AppPanel() throws DwcAppInitializeException {
 		

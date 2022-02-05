@@ -6,7 +6,7 @@ import org.dwcj.controls.IStyleable;
 import com.basis.bbj.proxies.sysgui.BBjWindow;
 import com.basis.startup.type.BBjException;
 
-public abstract class DwcPanel implements IPanel, IStyleable{
+public abstract class AbstractDwcPanel implements IPanel, IStyleable{
 
 	protected BBjWindow wnd;
 
